@@ -1,6 +1,6 @@
 name "bindbc-nanovg"
 version  "0.0.1"
-description "Dynamic and static bindings to nanovg, compatible with -betterC, @nogc, and nothrow."
+description "Dynamic and static bindings to nanovg, compatible with -betterC, nogc, and nothrow."
 homepage ""
 authors "Mikko Mononen" "Robert Georges"
 license "Boost"

@@ -1,4 +1,4 @@
-# Dynamic and static bindings to nanovg, compatible with -betterC, @nogc, and nothrow.
+## Dynamic and static bindings to nanovg, compatible with -betterC, @nogc, and nothrow.
 
 - based on [DerelictNANOVG](https://github.com/aldocd4/DerelictNANOVG)
 
