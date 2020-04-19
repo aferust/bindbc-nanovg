@@ -1,0 +1,30 @@
+name "bindbc-nanovg"
+version  "0.0.1"
+description "Dynamic and static bindings to nanovg, compatible with -betterC, @nogc, and nothrow."
+homepage ""
+authors "Mikko Mononen" "Robert Georges"
+license "Boost"
+
+targetType "staticLibrary"
+targetPath "lib"
+targetName "BindBC_Nanovg"
+
+dependency "bindbc-loader" version="~>0.1.0"
+
+configuration "dynamic" {
+}
+
+configuration "dynamicBC" {
+    dependency "bindbc-loader" version="~>0.1.0"
+    subConfiguration "bindbc-loader" "yesBC"
+    dflags "-betterC"
+}
+
+configuration "static" {
+    versions "BindNanovg_Static"
+}
+
+configuration "staticBC" {
+    dflags "-betterC"
+    versions "BindNanovg_Static"
+}
