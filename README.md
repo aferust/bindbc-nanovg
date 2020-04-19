@@ -73,7 +73,7 @@ extern (C) int main()
 	
 	//writeln("Opengl: ", gl);
 
-	auto vg = nvgCreateGL3(NVGcreateFlags.NVG_STENCIL_STROKES | NVGcreateFlags.NVG_DEBUG);
+	auto vg = nvgCreateGL3(NVG_STENCIL_STROKES | NVG_DEBUG);
 
 	while(!exit)
 	{
