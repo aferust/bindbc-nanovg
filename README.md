@@ -1,6 +1,7 @@
 ## Dynamic and static bindings to nanovg, compatible with -betterC, @nogc, and nothrow.
 
 - based on [DerelictNANOVG](https://github.com/aldocd4/DerelictNANOVG)
+- use [arsd:official:nanovega](https://code.dlang.org/packages/arsd-official%3Ananovega) when druntime is available instead.
 
 An example with glfw
 ```d
